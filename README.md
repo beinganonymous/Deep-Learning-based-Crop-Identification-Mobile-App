@@ -1,0 +1,2 @@
+# Deep-Learning-based-Crop-Identification-Mobile-App
+Develop a mobile application that can identify crop using only field photo of a crop. The team must target at-least 10 different crops for demonstration. The application will allow the user to take photos and automatically identify the crop. The photo and crop information along with geolocation information should be stored in an internal database which can be exported/emailed.
