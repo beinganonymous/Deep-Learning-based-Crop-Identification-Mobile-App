@@ -23,3 +23,11 @@ Using this information prediction of which crops can grow in this area can be ob
 1. Install above dependencies and run ```train.py``` file.
 2. Deploy trained model on server by running ```server.py``` file using following command ```python server.py serve```
 3. Run app on Android Studio and build apk.
+
+## ScreenShots
+#### Select Image
+![main](https://user-images.githubusercontent.com/30001594/73961151-0f2cad00-4932-11ea-8526-aecfd1c5e9bf.jpeg) 
+#### Model Recognize type of Crop
+![second](https://user-images.githubusercontent.com/30001594/73962402-5e73dd00-4934-11ea-95b4-1fc09a13c83b.jpeg)
+#### Information about Crop
+![third](https://user-images.githubusercontent.com/30001594/73962459-7ea39c00-4934-11ea-931a-ecf7c8eaeddc.jpeg)
