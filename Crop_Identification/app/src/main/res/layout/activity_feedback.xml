@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.7"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_uid"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/button"
+                android:fontFamily="Arial"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_crop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registeration_text"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="100dp"
+                android:alpha="0.6"
+                android:hint="Crop Name"
+                android:minWidth="250dp"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textColor="#374f69"
+                android:textColorHint="#374f69" />
+
+            <EditText
+                android:id="@+id/edit_uid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_crop_name"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:alpha="0.6"
+                android:hint="Pesticides"
+                android:minWidth="250dp"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textColor="#374f69"
+                android:textColorHint="#374f69" />
+
+            <TextView
+                android:id="@+id/registeration_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

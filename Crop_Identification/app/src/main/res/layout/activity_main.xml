@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="284dp"
+        android:layout_height="312dp"
+        android:layout_above="@id/btn_takephoto"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="41dp"
+        android:alpha="0.8"
+        android:src="@drawable/logo1" />
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="Take Photo"
+        android:textColor="#daf8e3" />
+
+    <Button
+        android:id="@+id/btn_uploadphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_takephoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="Upload Photo"
+        android:textColor="#daf8e3" />
+
+    <RelativeLayout
+        android:id="@+id/options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/scan_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_photo_camera_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scan_image"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="Scan Crop" />
+
+        <ImageView
+            android:id="@+id/pastscan_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_compare_arrows_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pastscan_image"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:text="Past Scans" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="109dp"
+        android:text="TextView" />
+</RelativeLayout>
